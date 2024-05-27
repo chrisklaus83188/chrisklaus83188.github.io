@@ -1,0 +1,58 @@
+/* Mobile styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+/* Remove padding from the ul element */
+ul {
+    padding: 0;
+    list-style: none; /* Remove default bullet points */
+}
+
+.question {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure consistent box model */
+}
+
+/* Center the question text */
+#question {
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    background-color: #0074D9;
+    color: #fff;
+    border: 1px solid #0056b3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 200px;
+    height: 60px;
+    line-height: 1.5;
+    font-size: 16px; /* Specify font size for consistency */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Larger screens (desktop/tablet) */
+@media (min-width: 600px) {
+    .question {
+        max-width: 400px;
+    }
+}
